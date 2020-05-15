@@ -3,9 +3,8 @@
 - Capturar arquivos .csv: .*csv
 
 // Documentos Brasileiros:
-- CPF:
-    - Formatos:(000.000.000-00)(00000000000)(000.000.000.00)
-    - Patterns: \d{3}\.?\d{3}\.?\d{3}[-.]?\d{2}
+- CPF: \d{3}\.?\d{3}\.?\d{3}[-.]?\d{2}
+    - Formatos: (000.000.000-00) (00000000000) (000.000.000.00)
 - Capturar CNPJ: \d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}
 - Captura Placa de veiculo: [A-Z]+-\d{4}
 
